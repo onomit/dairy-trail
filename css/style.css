@@ -1,0 +1,163 @@
+body {
+  font-family: "Avenir Next";
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+li {
+  list-style: none;
+}
+
+/* floatを適応した結果、次の要素が回り込むのを防ぐ */
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header {
+  background-color: #ffffff;
+  color: #000;
+  height: 60px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 30px;
+  /*padding: 10px 20px;*/
+}
+
+.header-list {
+  float: right;
+  /*padding: 15px 10px;*/
+}
+
+.header-list li {
+  float: right;
+  padding: 15px 10px;
+}
+
+.copy-container{
+  background-image: url('../img/main-vsual-nontitle.png');
+  height:300px;
+  width: 100%;
+}
+.copy-container h1 {
+  font-size: 30px;
+  text-align:center;
+  line-height:20px;
+}
+
+.copy-container p {
+  font-size: 30px;
+  text-align:center;
+  line-height:20px;
+}
+
+.copy-container h2 {
+  font-size: 5px;
+  text-align:center;
+  line-height:20px;
+}
+.copy-container h2 p {
+  font-size: 5px;
+  text-align:right;
+  line-height:20px;
+}
+.copy-container h4 {
+  font-size: 5px;
+  text-align:right;
+  line-height:20px;
+}
+
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.contents img{
+  height: 200px;
+  width: 320px;
+}
+
+.contents h3{
+  text-align:center;
+  border-bottom: 2px solid #dee7ec;
+  font-size: 24px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.contents h4{
+  text-align:right;
+  border-bottom: 2px solid #dee7ec;
+  font-size: 8px;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+}
+
+.wrap{
+  display:flex;
+  justify-content:space-between;
+}
+
+.contents-item img{
+  width: 320px;
+}
+
+
+
+.contents-item p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.contact-form {
+  text-align:center;
+  padding-top: 100px;
+}
+
+input,textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec
+}
+
+.contact-submit{
+  background:#dee7ec;
+  color:#889eab;
+  
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 20px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+
+
+
